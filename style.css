@@ -1,0 +1,140 @@
+@import url('https://fonts.cdnfonts.com/css/chinese-rocks');
+
+html, body{
+    height: 100%;
+    background-color: #f0f0f0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    background-color: white;
+    padding: 2rem 0;
+}
+
+.tel{
+    text-align: right;
+    background-color: #333;
+    color: #f0f0f0  ;
+}
+
+a, h2, figcaption, span, footer ul li{
+    font-family: 'Chinese Rocks Rg', sans-serif;
+}
+
+.sinopse{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sinopse p{
+    text-align: justify;
+    margin: 1rem;
+}
+
+.sinopse img {
+    max-width: 500px;
+    margin: 1rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+    transition: transform .22s ease;
+    font-size: 20px;
+}
+
+figure:hover {
+    transform: scale(1.1);
+}
+
+figure img {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+}
+  
+figcaption {
+    padding: 1rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 45px;
+    margin: 2rem;
+}
+
+.personagens{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+footer{
+    background-color: #333;
+    color: white;
+    padding: 2rem;
+    font-size: 20px;
+}
+
+footer ul{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    .sinopse{
+        display: block;
+        text-align: center; 
+        position: relative;
+        padding: 2rem;
+    }
+    .sinopse p{
+        font-size: 12px;
+        margin: 5px;
+       
+    }
+    .sinopse img{
+        width: 200px;
+        
+    }
+    h2{
+        text-align: center;
+    }
+
+    .personagens {
+        display: block;
+    }
+
+    figure img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    footer ul{
+        display: block;
+        text-align: center;
+    }
+    footer li{
+        margin: 1rem;
+    }
+
+  }

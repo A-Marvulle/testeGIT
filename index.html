@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Teste - Alfredo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="menu.css">
+    <script type="text/javascript" src="slider.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="tel">
+            <span>11 976007382</span>
+    </section>
+    
+    <header>
+        <input type="checkbox" id="menu-bar">
+         <label for="menu-bar">
+            <a class="icon">
+                <i class="fa fa-bars"></i>
+            </a>
+        </label>
+        <nav>
+            <h1 class="logo"><img src="images/logo.png"></h1>
+            <ul class="menu">
+                <li><a>HOME</a></li>
+                <li><a>MECÂNICAS</a>
+                    <ul class="submenu">
+                        <li><a>LUTA</a></li>
+                        <li><a>PERSONAGEM</a></li>
+                        <li><a>CAÇA</a>
+                            <ul class="submenu2">
+                                <li><a>PESCA</a></li>
+                                <li><a>CARNÍVOROS</a></li>
+                                <li><a>HERBÍVOROS</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a>PLATAFORMAS</a></li>
+                <li><a>SOBRE</a></li>
+            </ul>
+            <label for="menu-bar" class="close-icon"><i class="fa fa-close"></i></label>
+        </nav>
+
+        <section class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="images/slider1.png"
+                style="width: 100%;"/>
+            </div>
+          
+            <div class="mySlides fade">
+                <img src="images/slider2.png"
+                style="width: 100%;"/>
+            </div>
+          
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </section>
+          <section style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+          </section>
+    </header>
+    <main>
+        <section class="sinopse">
+            <p>                     
+                Estados Unidos, 1899. O fim da era do velho oeste se aproxima, 
+                e os xerifes caçam as últimas gangues fora da lei. 
+                Quem não se rende ou sucumbe, acaba morto. 
+                Depois de tudo dar errado em um roubo na cidade de Blackwater, no faroeste, 
+                Arthur Morgan e a gangue Van der Linde são obrigados a fugir.
+                <br><br>
+                É 1911 durante o declínio do Velho Oeste e segue a história de John Marston, 
+                um antigo fora-da-lei que tem sua esposa e filho tomados como reféns 
+                pelo governo para forçá-lo a trabalhar como seu caçador contratado. 
+                Sem escolhas, Marston parte em uma jornada para levar três membros de sua antiga gangue até a justiça.
+            </p>
+            <img src="images/map.png" legend="Mapa RDR2"/>
+        </section>
+        
+        
+        <h2>PERSONAGENS</h2>
+        <section class="personagens">
+            <figure>
+                <img src="images/dest1.png"/>
+                <figcaption>Arthur Morgan</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/dest2.png"/>
+                <figcaption>John Marston</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/dest3.png"/>
+                <figcaption>Lenny Summers</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/dest4.png"/>
+                <figcaption>Dutch van der Linde</figcaption>
+            </figure>
+              
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li>HOME</li>
+            <li>MECÂNICAS</li>
+            <li>PLATAFORMAS</li>
+            <li>SOBRE</li>
+        </ul>
+    </footer>
+</body>
+
+</html>
